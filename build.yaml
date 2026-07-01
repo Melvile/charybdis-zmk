@@ -1,7 +1,7 @@
 include:
-  - board: promicro_nrf52840//zmk
+  - board: promicro_nrf52840/nrf52840/uf2
     shield: charybdis_left
-  - board: promicro_nrf52840//zmk
+  - board: promicro_nrf52840/nrf52840/uf2
     shield: charybdis_right
-  - board: promicro_nrf52840//zmk
+  - board: promicro_nrf52840/nrf52840/uf2
     shield: settings_reset
