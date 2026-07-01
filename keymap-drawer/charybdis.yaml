@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: charybdis, layout_name: five_column_transform}
+layout: {zmk_keyboard: charybdis}
 layers:
   Base:
   - Q
@@ -306,4 +306,7 @@ combos:
   l: [Base]
 - p: [26, 27]
   k: '&mkp MCLK'
+  l: [Base]
+- p: [0, 9]
+  k: '&studio_unlock'
   l: [Base]
