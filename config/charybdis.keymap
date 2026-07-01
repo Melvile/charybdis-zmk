@@ -55,6 +55,11 @@
             require-prior-idle-ms = <125>;
             hold-trigger-on-release;
         };
+
+        studio_unlock: studio_unlock {
+            compatible = "zmk,behavior-studio-unlock";
+            #binding-cells = <0>;
+        };
     };
 
 
