@@ -60,6 +60,7 @@
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         cpi = <3000>;
         invert-x;
+        invert-y;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_Y>;
         y-input-code = <INPUT_REL_X>;
